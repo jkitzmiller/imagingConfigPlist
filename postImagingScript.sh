@@ -8,7 +8,7 @@ plistPath="/Library/Preferences" # Path to store the plist (default is /Library/
 
 currentDate=`date +%m/%d/%Y`
 
-defaults write $plistPath/$plistName image "$image"
+defaults write $plistPath/$plistName name "$image"
 
 defaults write $plistPath/$plistName date "$currentDate"
 
